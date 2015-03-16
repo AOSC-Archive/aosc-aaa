@@ -1,1 +1,2 @@
-install -Dm755 etc abdist/etc
+mkdir abdist
+cp -r etc abdist/
