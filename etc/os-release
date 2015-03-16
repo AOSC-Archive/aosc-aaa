@@ -1,0 +1,9 @@
+PRETTY_NAME="AOSC OS (Beta 2)"
+NAME="AOSC OS"
+VERSION_ID="2.98"
+VERSION="2.98 (Obsedian)"
+ID=debian
+ANSI_COLOR="1;36"
+HOME_URL="https://portal.anthonos.org/"
+SUPPORT_URL="https://techbase.anthonos.org/"
+BUG_REPORT_URL="https://bugs.anthonos.org/"
