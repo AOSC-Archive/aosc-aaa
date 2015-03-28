@@ -1,2 +1,9 @@
 /bin/sh
+/bin/ash
 /bin/bash
+/bin/csh
+/bin/fish
+/bin/ksh
+/bin/mksh
+/bin/tcsh
+/bin/zsh
