@@ -9,8 +9,8 @@
 mkdir $PKGDIR
 cp -r etc $PKGDIR/
 
-mkdir -pv $PKGDIR/{bin,boot,home,usr/lib/firmware,mnt,opt}
-mkdir -pv $PKGDIR/{media/{floppy,cdrom},sbin,srv,var}
+mkdir -pv $PKGDIR/{boot,home,usr/lib/firmware,mnt,opt}
+mkdir -pv $PKGDIR/{media/{floppy,cdrom},srv,var}
 install -dv -m 0750 $PKGDIR/root
 install -dv -m 1777 $PKGDIR/tmp $PKGDIR/var/tmp
 mkdir -pv $PKGDIR/usr/{bin,include,lib,sbin,src}
