@@ -24,6 +24,12 @@ ln -sv /run $PKGDIR/var/run
 ln -sv /run/lock $PKGDIR/var/lock
 mkdir -pv $PKGDIR/var/{opt,cache,local}
 
-ln -sv /usr/lib $PKGDIR/lib
-ln -sv /usr/lib $PKGDIR/lib64
-ln -sv /usr/lib $PKGDIR/usr/lib64
+#
+# Avoid confusion.
+#
+ln -sv usr/lib $PKGDIR/lib
+ln -sv usr/lib $PKGDIR/lib64
+ln -sv lib $PKGDIR/usr/lib64
+ln -sv usr/bin $PKGDIR/bin
+ln -sv usr/bin $PKGDIR/sbin
+ln -sv bin $PKGDIR/usr/sbin
