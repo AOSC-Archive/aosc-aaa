@@ -1,2 +1,2 @@
 mkdir abdist
-cp -ar {bin,boot,dev,etc,home,lib,lib64,media,mnt,opt,proc,root,run,sbin,srv,sys,tmp,usr,var} abdist/
+cp -r etc abdist/
