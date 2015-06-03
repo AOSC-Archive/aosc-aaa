@@ -10,5 +10,6 @@ group games 208
 group uuidd 209
 group storage 210
 group power 211
+group users 1000
 user http 207 http /srv/http "HTTP daemon" /bin/true
 user uuidd 209 uuidd /dev/null "UUIDD user" /bin/true
