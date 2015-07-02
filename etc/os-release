@@ -1,7 +1,7 @@
-PRETTY_NAME="AOSC OS (Beta 2.1)"
+PRETTY_NAME="AOSC OS (3.0.0, stable)"
 NAME="AOSC OS"
-VERSION_ID="3.0~beta2.1"
-VERSION="2.98.2.1 (Obsidian)"
+VERSION_ID="3.0.0"
+VERSION="3.0.0"
 ID=aosc
 ANSI_COLOR="1;36"
 HOME_URL="https://portal.anthonos.org/"
