@@ -38,3 +38,4 @@ ln -sv bin $PKGDIR/usr/sbin
 # Linux From Scratch Chapter 6, Section 2.
 #
 mkdir -pv $PKGDIR/{dev,proc,sys,run}
+install -dv -m 1777 $PKGDIR/dev/shm
