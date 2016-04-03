@@ -2,6 +2,7 @@
 /bin/ash
 /bin/bash
 /bin/csh
+/bin/elvish
 /bin/fish
 /bin/ksh
 /bin/mksh
