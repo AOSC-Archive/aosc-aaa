@@ -1,7 +1,7 @@
-PRETTY_NAME="AOSC OS (3.5.2, stable)"
+PRETTY_NAME="AOSC OS (3.5.3, stable)"
 NAME="AOSC OS"
-VERSION_ID="3.5.2"
-VERSION="3.5.2 (CyanFlame)"
+VERSION_ID="3.5.3"
+VERSION="3.5.3 (CyanFlame)"
 ID=aosc
 ANSI_COLOR="1;36"
 HOME_URL="https://aosc.io/"
