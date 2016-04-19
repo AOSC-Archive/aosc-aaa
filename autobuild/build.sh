@@ -28,7 +28,7 @@ mkdir -pv "$PKGDIR"/var/{opt,cache,local}
 # Avoid confusion.
 #
 ln -sv usr/lib "$PKGDIR"/lib
-case $ARCH in
+case ${CROSS:-$ARCH} in
 	(arm*)	;;
 	(*n32*)
 		ln -sv usr/lib "$PKGDIR"/lib32
