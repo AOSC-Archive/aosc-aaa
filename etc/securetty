@@ -5,5 +5,6 @@ tty3
 tty4
 tty5
 tty6
+ttyAMA0
 ttyS0
 hvc0
