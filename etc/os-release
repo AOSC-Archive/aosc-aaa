@@ -5,5 +5,5 @@ VERSION="4.0.1 (Duang-Duang)"
 ID=aosc
 ANSI_COLOR="1;36"
 HOME_URL="https://aosc.io/"
-SUPPORT_URL="https://github.com/AOSC-Dev/aosc-os"
-BUG_REPORT_URL="https://github.com/AOSC-Dev/aosc-os-abbs"
+SUPPORT_URL="https://github.com/AOSC-Dev/aosc-os/"
+BUG_REPORT_URL="https://github.com/AOSC-Dev/aosc-os-abbs/issues/"
