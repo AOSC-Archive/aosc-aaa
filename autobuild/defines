@@ -1,5 +1,5 @@
 PKGNAME=aosc-aaa
-PKGVER=5.3.0
+PKGVER=5.3.1
 PKGSEC=misc
 PKGDEP=""
 PKGDES="Bed rock level system definitions"
