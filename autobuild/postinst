@@ -19,6 +19,8 @@ if [[ ! -e /etc/fstab ]]; then
 cat > /etc/fstab << EOF
 # /etc/fstab
 #
+# This file contains mounting specifications for block devices.
+#
 # <device>: the block device to be mounted.
 # <mntpnt>: mount point, the mounting destination of the block device.
 # <fstyte>: file system type, e.g. ext4, btrfs, etc.
@@ -36,6 +38,20 @@ cat > /etc/fstab << EOF
 # <device>	<mntpnt>	<fstype>	<options>	<dump>	<pass>
 EOF
 fi
+
+if [[ ! -e /etc/crypttab ]]; then
+cat > /etc/crypttab << EOF
+# /etc/crypttab
+#
+# This file contains mappings for encrypted partitions.
+#
+# Each mapped device will be created in /dev/mapper, so your /etc/fstab
+# should use the /dev/mapper/<name> notations for encrypted devices.
+#
+# See crypttab(5) for supported syntax.
+#
+# <name>	<device>	<password>	<options>
+EOF
 
 echo -e "
 
